@@ -1,0 +1,5 @@
+{
+    "git.showPushSuccessNotification": true,
+    "git.requireGitUserConfig": false,
+    "git.enableSmartCommit": true
+}
