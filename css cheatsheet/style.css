@@ -24,18 +24,34 @@ a:hover{
     color: red;
 }
 
+.clr{
+    clear: both;
+}
+
 a:active{
     color: green;
 
 }
 
 a:visited{
-    color: yellow;
+    
 }
 
 .container{
     width: 80%;
     margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: red
+    color:white;
 }
 
 .box-1{ 
@@ -117,9 +133,27 @@ a:visited{
     width: 100%;
 }
 
-.my-form input[type="submit"]{
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
     background-color: #333;
     color: #fff;
-    padding: 10px 15px;
-    border: none;
+    padding: 15px;
+    box-sizing: border-box;
 }
+
